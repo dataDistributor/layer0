@@ -1,0 +1,10 @@
+C:\Users\kyle\1\target\debug\deps\ark_relations-fae63dc3301017d4.d: C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\lib.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\mod.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\impl_lc.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\constraint_system.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\error.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\trace.rs
+
+C:\Users\kyle\1\target\debug\deps\libark_relations-fae63dc3301017d4.rmeta: C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\lib.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\mod.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\impl_lc.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\constraint_system.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\error.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\trace.rs
+
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\lib.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\mod.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\impl_lc.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\constraint_system.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\error.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-relations-0.4.0\src\r1cs\trace.rs:

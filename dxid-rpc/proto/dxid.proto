@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package dxid;
+
+service Dxid {
+  rpc GetStatus(StatusRequest) returns (StatusResponse);
+  rpc GetBlock(BlockRequest) returns (BlockResponse);
+  rpc GetBalance(BalanceRequest) returns (BalanceResponse);
+  rpc AiQuery(AiQueryRequest) returns (AiQueryResponse);
+}
+
+message StatusRequest {}
+
+message StatusResponse {
+  uint64 height = 1;
+  uint64 peers = 2;
+  string version = 3;
+}
+
+message BlockRequest {
+  uint64 height = 1;
+}
+
+message BlockResponse {
+  string block_json = 1;
+}
+
+message BalanceRequest {
+  string address = 1;
+}
+
+message BalanceResponse {
+  uint64 balance = 1;
+}
+
+message AiQueryRequest {
+  string prompt = 1;
+}
+
+message AiQueryResponse {
+  string answer = 1;
+}

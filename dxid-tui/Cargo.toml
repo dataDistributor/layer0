@@ -1,0 +1,19 @@
+[package]
+name = "dxid-tui"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+ratatui.workspace = true
+crossterm.workspace = true
+futures.workspace = true
+dxid-core = { path = "../dxid-core" }
+dxid-wallet = { path = "../dxid-wallet" }
+dxid-ai-hypervisor = { path = "../dxid-ai-hypervisor" }
+dxid-node = { path = "../dxid-node" }

@@ -1,0 +1,19 @@
+[package]
+name = "dxid-core"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+blake3.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+rand.workspace = true
+bs58.workspace = true
+async-trait.workspace = true
+tracing.workspace = true
+tokio.workspace = true

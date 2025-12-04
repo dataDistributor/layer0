@@ -1,0 +1,20 @@
+[db]
+url = "postgres://user:password@localhost:5432/dxid"
+pool_size = 5
+
+[api]
+rest_addr = "0.0.0.0:8080"
+grpc_addr = "0.0.0.0:50051"
+
+[consensus]
+max_supply = 210000000000
+base_reward = 500000
+halving_interval = 100000
+
+[network]
+listen_addr = "/ip4/0.0.0.0/tcp/7000"
+seed_nodes = []
+
+[ai]
+openai_api_key = "set-me"
+model = "gpt-4o-mini"

@@ -1,0 +1,19 @@
+[package]
+name = "dxid-vectors"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+sqlx.workspace = true
+pgvector.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+async-trait.workspace = true
+dxid-core = { path = "../dxid-core" }

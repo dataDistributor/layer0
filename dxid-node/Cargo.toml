@@ -1,0 +1,24 @@
+[package]
+name = "dxid-node"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+dxid-core = { path = "../dxid-core" }
+dxid-config = { path = "../dxid-config" }
+dxid-crypto = { path = "../dxid-crypto" }
+dxid-consensus = { path = "../dxid-consensus" }
+dxid-storage = { path = "../dxid-storage" }
+dxid-network = { path = "../dxid-network" }
+dxid-rpc = { path = "../dxid-rpc" }
+dxid-interop = { path = "../dxid-interop" }
+dxid-ai-hypervisor = { path = "../dxid-ai-hypervisor" }
+dxid-vectors = { path = "../dxid-vectors" }
+parking_lot.workspace = true

@@ -1,0 +1,30 @@
+[package]
+name = "dxid-rpc"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+axum.workspace = true
+tonic.workspace = true
+prost.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+async-trait.workspace = true
+dxid-core = { path = "../dxid-core" }
+dxid-config = { path = "../dxid-config" }
+dxid-consensus = { path = "../dxid-consensus" }
+dxid-storage = { path = "../dxid-storage" }
+dxid-wallet = { path = "../dxid-wallet" }
+dxid-crypto = { path = "../dxid-crypto" }
+dxid-ai-hypervisor = { path = "../dxid-ai-hypervisor" }
+
+[build-dependencies]
+tonic-build = "0.10"
+prost-build = "0.12"

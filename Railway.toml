@@ -1,0 +1,13 @@
+[project]
+name = "dxid"
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+numReplicas = 1
+restartPolicyType = "ON_FAILURE"
+
+[env]
+DXID_CONFIG = "/app/config/dxid.toml"

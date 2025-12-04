@@ -1,0 +1,75 @@
+[workspace]
+members = [
+    "dxid-core",
+    "dxid-crypto",
+    "dxid-consensus",
+    "dxid-storage",
+    "dxid-vectors",
+    "dxid-network",
+    "dxid-interop",
+    "dxid-config",
+    "dxid-rpc",
+    "dxid-wallet",
+    "dxid-cli",
+    "dxid-tui",
+    "dxid-node",
+    "dxid-contracts",
+    "dxid-ai-hypervisor",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+authors = ["dxid contributors"]
+license = "Apache-2.0"
+rust-version = "1.72"
+
+[workspace.dependencies]
+anyhow = "1"
+async-trait = "0.1"
+axum = "0.7"
+base64 = "0.21"
+blake3 = "1.5"
+bs58 = "0.4"
+bytes = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4", features = ["derive"] }
+config = "0.13"
+ed25519-dalek = { version = "2", features = ["serde", "rand_core"] }
+futures = "0.3"
+hex = "0.4"
+libp2p = { version = "0.51", default-features = false, features = ["tcp", "dns", "tokio", "mdns", "gossipsub", "identify", "noise", "yamux", "ping", "macros"] }
+prost = "0.12"
+rand = "0.8"
+rand_core = "0.6"
+ratatui = "0.26"
+reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+sqlx = { version = "0.7", default-features = false, features = ["runtime-tokio-rustls", "postgres", "macros", "uuid", "chrono", "json", "migrate"] }
+pgvector = { version = "0.3", features = ["postgres", "sqlx"] }
+thiserror = "1"
+tokio = { version = "1", features = ["full"] }
+tonic = { version = "0.10", features = ["transport"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "env-filter"] }
+uuid = { version = "1", features = ["serde", "v4"] }
+crossterm = "0.27"
+parking_lot = "0.12"
+pbkdf2 = "0.12"
+aes-gcm = "0.10"
+hmac = "0.12"
+sha3 = "0.10"
+toml = "0.8"
+which = "4"
+tower = "0.4"
+tower-http = { version = "0.4", features = ["trace", "cors"] }
+bytesize = "1.3"
+once_cell = "1.18"
+indicatif = "0.17"
+env_logger = "0.10"
+bincode = "1"
+dirs = "5"
+
+[patch.crates-io]

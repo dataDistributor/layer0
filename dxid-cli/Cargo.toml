@@ -1,0 +1,23 @@
+[package]
+name = "dxid-cli"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+indicatif.workspace = true
+dxid-node = { path = "../dxid-node" }
+dxid-wallet = { path = "../dxid-wallet" }
+dxid-config = { path = "../dxid-config" }
+dxid-core = { path = "../dxid-core" }
+dxid-interop = { path = "../dxid-interop" }
+dxid-ai-hypervisor = { path = "../dxid-ai-hypervisor" }
+dxid-tui = { path = "../dxid-tui" }
+dxid-storage = { path = "../dxid-storage" }
+dirs = "5"

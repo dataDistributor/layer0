@@ -1,0 +1,11 @@
+C:\Users\kyle\1\target\debug\deps\unsigned_varint-68dc392b513160b6.d: C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\lib.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\decode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\encode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\io.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\codec.rs
+
+C:\Users\kyle\1\target\debug\deps\libunsigned_varint-68dc392b513160b6.rlib: C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\lib.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\decode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\encode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\io.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\codec.rs
+
+C:\Users\kyle\1\target\debug\deps\libunsigned_varint-68dc392b513160b6.rmeta: C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\lib.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\decode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\encode.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\io.rs C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\codec.rs
+
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\lib.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\decode.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\encode.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\io.rs:
+C:\Users\kyle\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\unsigned-varint-0.7.2\src\codec.rs:
